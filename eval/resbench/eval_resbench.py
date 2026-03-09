@@ -9,7 +9,7 @@ from tqdm import tqdm
 # 设置工作目录为当前文件所在目录
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # File paths
-SOLUTIONS_FILE = "/home/syh123/workspace/Data_Filter/eval/resbench/eval_file/sc8/eval_rtlcoder_el2n_25.json"
+SOLUTIONS_FILE = "eval_rtlcoder_el2n_25.json"
 PROBLEMS_FILE = "problems_resbench.jsonl"
 TEMP_VERILOG_FILE = "temp.v"
 TEMP_TESTBENCH_FILE = "testbench.v"
