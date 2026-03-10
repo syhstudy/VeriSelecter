@@ -1,4 +1,4 @@
-### Feature Dimension
+# Feature Dimension
 We consider a total of 109-dimensional structural features, including 57 dimensions for the AST, 28 dimensions for the CFG, and 24 dimensions for the Netlist. The selection rules are presented in the table below.
 
 | Representation Method | Feature Dimension | Feature Composition Details | Core Nodes & Description |
