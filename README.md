@@ -1,7 +1,9 @@
 # VeriSelecter
 Quality over Quantity: Diversity-Aware Data Selection for Efficient Verilog Code Generation
 
-### Feature Dimension Summary Table (Three-line Table · Academic Version)
+
+We consider a total of 109-dimensional structural features, including 57 dimensions for the AST, 28 dimensions for the CFG, and 24 dimensions for the Netlist. The selection rules are presented in the table below.
+### Feature Dimension Summary Table
 | Representation Method | Feature Dimension | Feature Composition Details | Core Nodes & Description |
 | :--- | :--- | :--- | :--- |
 | **AST** | 57 | Node type dimension (54 categories) + depth parameters (2) + total node count (1) + node count per depth (depth+1) | Core Nodes: 'Source', 'ModuleDef', 'Decl', 'Input', 'Output', 'Reg', 'Wire','Assign', 'Always', 'Block', 'IfStatement', 'CaseStatement', 'Case', 'NonblockingSubstitution', 'BlockingSubstitution', 'Identifier', 'IntConst','Partselect', 'Pointer', 'Lconcat', 'Plus', 'Minus', 'Times', 'Divide', 'Mod', 'Power', 'Ulnot', 'Unot', 'Uand', 'Unand', 'Uor', 'Unor', 'Uxor', 'Uxnor', 'Sll', 'Srl', 'Sra', 'LessThan', 'GreaterThan', 'LessEq', 'GreaterEq', 'Eq', 'NotEq', 'Eql', 'NotEql', 'And', 'Xor', 'Xnor', 'Or', 'Land', 'Lor', 'Lnot' <br> Description: Covers all syntax nodes of hardware circuit, including modules, ports, registers/wires, assignments, conditional branches, arithmetic/logic/bitwise operations, etc. |
